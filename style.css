@@ -201,13 +201,7 @@ nav > a:hover {
     color: #f7f2f2;
     padding: 3px 8px;
     text-decoration: none;
-    @media screen (max-width: 600px) {
-      font-size: 14px;
-      
-    }
-    
-    
-    
+       
   }
   
   li a.active {

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Estilos padrão para telas grandes */
-body {
+body nav {
   font-size: 16px;
 }
 
@@ -169,6 +169,7 @@ nav ul {
 
     list-style-type: none;
     font-weight: bold;
+  
  
 }
 

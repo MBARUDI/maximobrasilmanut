@@ -150,6 +150,9 @@ nav > a {
     margin-right: 30px;
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
     text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
    
     
 }

@@ -6,14 +6,8 @@ body {
   text-align: center;
   background-color: rgba(177, 209, 236, 0.418);
   background-image: url("constru.png");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-
-
-
-  
- 
+  background-size: contain;
+  background-attachment: fixed; 
   margin: 5px;
   padding: 5px;
   border-bottom-left-radius: 10px;

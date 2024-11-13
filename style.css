@@ -18,10 +18,10 @@ body nav ul{
 /* Estilos para telas pequenas (smartphones) */
 @media screen and (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 12px;
   }
   .container {
-    width: 90%;
+    width: 80%;
   }
   nav ul {
     flex-direction: column; /* Transforma o menu horizontal em vertical */

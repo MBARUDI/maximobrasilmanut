@@ -227,6 +227,8 @@ footer {
  
   padding: 2px;
   margin: 0px;
+  background-color: rgb(141, 189, 252);
+  color: black;
   
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: xx-small;

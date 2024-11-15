@@ -2,278 +2,13 @@
 
 
 
-/* Estilos para telas médias (tablets) */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
-  .container {
-    width: 80%; /* Ajuste a largura conforme necessário */
-  }
-}
-
-/* Estilos para telas pequenas (smartphones) */
-@media screen and (max-width: 380px) {
-
-  h1 {font-size: 14px;
-    font-size: small;  
-
-  }
-
-  p { font-size: 15px;
-    width: 80%;
-}
-  
-  .container {
-    width: 90%;
-  }
-  nav {
-    font-size: 11px;
-    width: 80%;
-    flex-direction: column; /* Transforma o menu horizontal em vertical */
-  }
-}
-
-body {
-  
-  font-family:'Times New Roman', Times, serif;
-  text-align: center;
-  background-color: rgba(177, 209, 236, 0.418);
-  background-image: url("constru.png");
-  background-position: center bottom;
-  background-size:backdrop;
-  background-attachment: fixed;
-  margin: 0px;
-  padding: 0px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-  h2  {
-    
-   
-    background-image: linear-gradient(to right, rgb(28, 42, 236), rgb(16, 13, 173));
-    box-shadow: 5px 3px 7px 1px rgba(243, 238, 238, 0.466);
-         
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    margin-right: 30px;
-    margin: 0px;
-    text-align: center;
-    
-      
-}
-  h3 {
-        
-   
-   box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);  
-}
-.city {
-  background-color: rgb(131, 158, 209);
-  color: white;
-  padding: 2px; 
-  border-radius: 20px; }
-
-
-  h4 {
-        
-  font-size: 10px;
-  text-align: center;
-  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
-  
- 
-}
-
-
-p {
-    line-height: 1.5em;    
-    margin-inline-start: 10px;
-    text-indent: 30px;
-    text-align: center;
- 
-  }
-    
-
-.container {
-    display: flex;
-    justify-content: justify;
-    align-items: justify;
-}
-
-.box {
-      position: absolute;
-      border: 2px solid black;
-      padding: 10px;
-    }
-  
-
-header {
-    background-image: linear-gradient(to bottom, rgba(31, 194, 243, 0.562), rgba(12, 36, 172, 0.548));
-            height: 100px;
-    
-    color: #fff;
-    padding: 10px;
-    margin-block: center;
-    text-align: center;
-    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
-    border-radius: 10px;
-    
-    margin: auto;
-    padding-bottom: 50px;
-    
-}
-
-main {
-    min-width: auto;
-    max-width: auto;
-    background-color: white;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    
-      
-     
-  }
-  
-
-
-
-footer {
- 
-  padding: 2px;
-  margin: 0px;
-  
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: xx-small;
-  
-}
-
-footer > p {
-  
-  margin: 10px;
-  
- 
-}
-
-nav ul {
-    list-style-type: none;
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: bold;
-    max-width:70%;
-   
-    
-    padding: 10px;
-    text-align: center;
-    display: block;
-    justify-content: space-around;
-
-       
-    background-color: #a2d0db;
-    position: fixed;
-    height: 97vh;
-    overflow: auto;
-
-    list-style-type: none;
-    font-weight: bold;
-    box-sizing: border-box;
-    float: left;
- 
-}
-
-
-nav > a {
-
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    margin-right: 30px;
-    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
-    display: flexbox;
-   
-   
-    
-   
-    
-}
-
-nav > a:hover {
-
-    text-decoration: underline;
-    text-align: center;
-    box-sizing: border-box;
-    
-    
-  
-}
-
-  
-  li a {
-    display: block;
-    color: #f7f2f2;
-    padding: 3px 8px;
-    text-decoration: none;
-           
-  }
-  
-  li a.active {
-    background-color: #d2f3e7;
-    color: rgb(7, 5, 5);
-    
-  }
-
-  mark {
-    background-color: yellow;
-    color: black;
-  }
-
-  form {
-    display: flex;
-    flex-direction: column; /* Empilha elementos verticalmente */
-    margin: 5px;
-    padding: 5px;
-    
-  }
-  
-  input, textarea, button {
-    margin-bottom: 10px; /* Adiciona espaço entre os elementos */
-  }
-
-  table {
-    
-    border-radius: 10px;
-}
-  th, td {
-  
-  border-collapse: separate;
-  border-radius: 10px;
-  padding: 0px;
-}
-  th.linha, td.linha {
-    
-    background-image: linear-gradient(to bottom, rgba(243, 144, 31, 0.658), rgba(228, 155, 155, 0.719));
-}
-    
-div {
-  width:300px;
-  margin:auto;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-
-  div#containner {
-
-    overflow-x: auto;
-
-
-}
-
-label, textarea {
-  display: inline-block; /* Torna os elementos inline-block para permitir alinhamento lado a lado */
-  vertical-align: top; /* Alinha o conteúdo verticalmente no topo */
+nav {
+  background-color: #376ca8;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .menu-icon {
@@ -349,4 +84,198 @@ i#burguer:hover {
 
 }
 
+
+
+/* Estilos para telas médias (tablets) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+  .container {
+    width: 80%; /* Ajuste a largura conforme necessário */
+  }
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media screen and (max-width: 380px) {
+
+  h1 {font-size: 14px;
+    font-size: small; 
+    text-align:justify; 
+
+  }
+
+  p { font-size: 15px;
+    width: 80%
+}
+  
+  .container {
+    width: 90%;
+  }
+  nav {
+    font-size: 11px;
+    width: 80%;
+    flex-direction: column; /* Transforma o menu horizontal em vertical */
+  }
+}
+
+body {
+  
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgba(177, 209, 236, 0.418);
+  background-image: url("constru.png");
+  background-position: center bottom;
+  background-size:backdrop;
+  background-attachment: fixed;
+  margin: 0px;
+  padding: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+  h2  {
+    
+   
+    background-image: linear-gradient(to right, rgb(28, 42, 236), rgb(16, 13, 173));
+    box-shadow: 5px 3px 7px 1px rgba(243, 238, 238, 0.466);
+         
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+    margin: 10px;
+    text-align: justify;
+    
+      
+}
+  h3 {
+    
+   box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);  
+}
+
+.city {
+  background-color: rgb(131, 158, 209);
+  color: white;
+  padding: 2px; 
+  border-radius: 20px; }
+
+
+  h4 {
+        
+  font-size: 10px;
+  text-align: center;
+  box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.466);
+  
+ 
+}
+
+
+p {
+    line-height: 1.5em;    
+    margin-inline-start: 10px;
+    text-indent: 30px;
+    text-align: center;
+ 
+  }
+    
+
+
+.container {
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+}
+
+.box {
+      position: absolute;
+      border: 2px solid black;
+      padding: 10px;
+    }
+  
+
+header {
+    background-image: linear-gradient(to bottom, rgba(31, 194, 243, 0.562), rgba(12, 36, 172, 0.548));
+            height: 100px;
+    
+    color: #fff;
+    padding: 10px;
+    margin-block: center;
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    
+    margin: auto;
+    padding-bottom: 50px;
+    
+}
+
+main {
+    min-width: auto;
+    max-width: auto;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+      
+     
+  }
+  
+footer {
+ 
+  padding: 2px;
+  margin: 0px;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-small;
+  
+}
+
+footer > p {
+  
+  margin: 10px;
+  
+ 
+}
+
+
+  mark {
+    background-color: yellow;
+    color: black;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; /* Empilha elementos verticalmente */
+    margin: 5px;
+    padding: 5px;
+    
+  }
+  
+  input, textarea, button {
+    margin-bottom: 10px; /* Adiciona espaço entre os elementos */
+  }
+
+  table {
+    
+    border-radius: 10px;
+}
+  th, td {
+  
+  border-collapse: separate;
+  border-radius: 10px;
+  padding: 0px;
+}
+  th.linha, td.linha {
+    
+    background-image: linear-gradient(to bottom, rgba(243, 144, 31, 0.658), rgba(228, 155, 155, 0.719));
+}
+    
+
+label, textarea {
+  display: inline-block; /* Torna os elementos inline-block para permitir alinhamento lado a lado */
+  vertical-align: top; /* Alinha o conteúdo verticalmente no topo */
+}
 /* ... e outros estilos */

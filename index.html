@@ -5,21 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Máximo Brasil Manutenção</title>
     
-    <link rel="shortcut icon" href="favicon.ico" image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" image="x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" media = "all">
+    <link rel="stylesheet" href="style3.css" media = "all">
 </head>
 <body>
     
    
     <header>
-        <h1><img src="imagmax .png" width=60 height= 60 alt="Máximo Brasil">  Máximo Brasil Manutenção<br></h1>
-       <nav>
-                <a href="https://sites.google.com/view/maximobrasilmanutencao"target="_blank">Home</a>
-                <a href="https://sites.google.com/view/maximobrasilmanutencao/servi%C3%A7os"target="_blank">Serviços</a>
-                <a href="https://sites.google.com/view/maximobrasilmanutencao/sobre"target="_blank">Sobre Nós</a>
-                <a href="https://wa.me/message/W54XNCHBABMZE1"target="_blank">Contato</a>
+
+
+        <h1><img src="imagmax .png" width=60 height= 60 alt="Máximo Brasil">  Máximo Brasil Manutenção<br>
+        </h1>
+        
+        <nav>
+
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-list">
+            
+            <li><a href="https://sites.google.com/view/maximobrasilmanutencao"target="_blank">Home</a></li>
+            <li><a href="https://sites.google.com/view/maximobrasilmanutencao/servi%C3%A7os"target="_blank">Serviços</a></li>
+            <li><a href="https://sites.google.com/view/maximobrasilmanutencao/sobre"target="_blank">Sobre Nós</a></li>
+            <li><a href="https://wa.me/message/W54XNCHBABMZE1"target="_blank">Contato</a></li>
+           
+            </ul>
         </nav>
+      
+        <script>
+            const menuIcon = document.querySelector('.menu-icon');
+            const navList = document.querySelector('.nav-list');
+            
+            menuIcon.addEventListener('click', () => {
+              navList.classList.toggle('active');
+            });</script>
+    
+
+
+
+
+    </header>
+
+
+
+
+        </nav>
+
+        <script>
+            const menuIcon = document.querySelector('.menu-icon');
+            const navList = document.querySelector('.nav-list');
+            
+            menuIcon.addEventListener('click', () => {
+              navList.classList.toggle('active');
+            });</script>
    
     </header>
 
@@ -41,7 +84,7 @@
         <section id="sobre">
             <h2><p>Sobre Nós</p></h2>
             <p>A Máximo Brasil é uma empresa consolidada no mercado da construção civil desde 2007. 
-            <p>Especializada em uma ampla gama de serviços, como construção, manutenção, <br> 
+            <p>Especializada em uma ampla gama de serviços, como construção, manutenção, 
                 reformas prediais, gestão de manutenção e consultoria.
             <p>A empresa se destaca por oferecer soluções completas para as necessidades das 
                 <br>instalações prediais.</p>

@@ -141,33 +141,38 @@
             <h2><p>Contato</p></h2>
             
                 <form action="cadastro2.php" method="post" enctype"text/plain" autocomplete="on">
-                    <fieldset>
-                        <legend>Dados pessoais</legend>
-                        <P>
+                   
+                        <legend>Dados pessoais</legend><br>
+                        
                             <label for="inome">Digite seu nome</label>
                             <input type="text" placeholder="Nome do usuário"  required minlength="10" maxlength="30" size="20" >
-                        
-                        <P>
+                        <br>
+                       
                             <label for="itel">Telefone</label>
                             <input type="tel" name="tel"  id="itel" autocomplete="tel"
                             pattern="^\(\d{2}\)\s?\d{4}\-\d{4}$" required placeholder="(xx) xxxxx-xxxx">
-                        </P>
-                        <P>
+                        <br>
+                       
                             <label for="iemail">Digite seu E-mail</label>
                             <input type="email" name="email"  id="iemail"placeholder="E-mail" required minlength="10" maxlength="30" size="20">
-                        
-                        </P>
-                        <P>
+                        <br>
+                       
+                       
                             <label for="mensagem">Descrição do Serviço :</label>
                         
                             <textarea id="mensagem" name="mensagem" required></textarea>
                         
-                        </P>
-                    </fieldset>
-                        <button type="submit">Enviar</button>
-                        <input type="reset" value="limpar"/>
+                       
+
+                        
+                   
+                        <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset" >Limpar </button>
+                  </div>
                     
                   </form>
+                 
                                                              
             
               
